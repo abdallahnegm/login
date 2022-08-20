@@ -1,0 +1,81 @@
+/* global rules */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/photo-1585409677983-0f6c41ca9c3b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* end global rules*/
+/* start header */
+.header {
+    margin: 50px ;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.header i {
+    margin-right:15px;
+}
+/* start inputs */
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login .d img{
+    margin-bottom: 100px;
+    max-width: 100%;
+    width: 200px; 
+    height: 200px;
+    order: -1;
+}
+.login .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: darkgray;
+}
+.login .inputs input:focus{
+    background-color:lightsalmon;
+}
+.inputs input[type="text"]{
+    position: relative;
+}
+
+.inputs input[type="submit"]{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+.inputs a.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
